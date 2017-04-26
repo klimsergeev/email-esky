@@ -1,0 +1,50 @@
+<spacer size="8"></spacer>
+
+<!-- heading -->
+
+<wrapper>
+	<container>
+		<row>
+			<columns>
+				<h1>Список акций<br><small>и подзаголовок списка</small></h1>
+			</columns>
+		</row>
+	</container>
+</wrapper>
+
+<!-- list of offers -->
+
+<wrapper>
+	<container>
+
+		{{#repeat 3}}
+
+		<!-- row # 1 -->
+
+		<row>
+
+			{{#repeat 2}}
+			
+			<!-- offer # 1 - 1 -->
+
+			<columns large="6" small="12">
+
+				<a href="#"><img class="float-center" src="http://placehold.it/720x440/eeeeee/eeeeee/"></a>
+				<spacer size="8"></spacer>
+				<div class="description"><p class="text-left">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p></div>
+				<spacer size="12"></spacer>
+
+			</columns>
+
+			{{/repeat}}
+
+		</row>
+
+		{{/repeat}}
+		
+		<hr>
+	
+	</container>
+</wrapper>
+
+<spacer size="16"></spacer>

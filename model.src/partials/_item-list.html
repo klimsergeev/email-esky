@@ -1,0 +1,105 @@
+<spacer size="8"></spacer>
+
+<!-- heading -->
+
+<wrapper>
+	<container>
+		<row>
+			<columns>
+				<h1>Список товаров<br><small>и подзаголовок списка</small></h1>
+			</columns>
+		</row>
+	</container>
+</wrapper>
+
+<!-- block -->
+
+<wrapper class="no-padding">
+	<container>
+
+	{{#repeat 2}}
+
+	<!-- row -->
+
+		<row>
+
+		{{#repeat 2}}
+
+
+		<!-- item #1 (2 in a row) -->
+
+			<columns large="6" small="12">
+
+				<div class="item-container">
+
+					<row>
+
+						<columns>
+							<button class="tiny rounded alert saletag" href="#">31%</button>
+							<a href="#"><img class="float-center" src="{{root}}assets/img/placeholder__818x818.jpg"></a>
+						</columns>
+
+					</row>
+
+				<row>
+
+					<columns>
+						<div class="item-name"><p><a href="#">Конструктор LEGO Batman Movie Бэтмобиль 70905</a></p></div>
+						<div class="brand-name"><p>LEGO, Дания</p></div>
+					</columns>
+
+					</row>
+
+					<spacer size="16"></spacer>
+
+						<row>
+
+							<columns small="12" large="6">
+								<div class="price-description"><p class="text-center">цена с промо-кодом*</p></div>
+								<div class="price-old"><p class="text-center">5 990 руб.</p></div>
+							</columns>
+
+						</row>
+
+						<row>
+
+							<columns small="12" large="6">
+								<div class="price"><p class="text-center">1 999 руб.</p></div>
+
+								<spacer size="16"></spacer>
+							</columns>
+
+						</row>
+
+						<row>
+
+							<columns small="12" large="6">
+								<center><button class="expanded rounded" href="#">купить</button></center>
+							</columns>
+
+						</row>
+
+				</div>
+
+				<spacer size="16"></spacer>
+
+			</columns>
+
+			<!-- / item #1 -->
+
+			{{/repeat}}
+
+		</row>
+
+			{{/repeat}}
+
+		<row>
+			<columns>
+				<center><button href="#" class="secondary rounded expanded">Показать все</button></center>
+			</columns>
+		</row>
+
+		<hr>
+
+	</container>
+</wrapper>
