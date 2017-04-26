@@ -1,0 +1,316 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+/*
+    outline: 1px solid black;
+    font-family: 'Open Sans', 'SF UI Display', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-weight: 400; // regular
+    font-weight: 600; // semibold
+    font-weight: 700; // bold
+*/
+
+// import Open Sans fong from Google/fonts
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic");
+
+/* TEMP FIXES
+
+#__bs_notify__ {
+    top: 92% !important;
+    right: 10px !important;
+
+    height: 60px !important; 
+
+    border-radius: 15px !important;
+}
+
+.comment {
+  font-family: 'Courier New', 'Lucida Console', sans-serif !important;
+  color: #999999 !important;
+} */
+
+// Remove blue links
+
+ 
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+
+// Body styles 
+body,
+html,
+.body {
+    background: #ffffff !important;
+}
+
+.container.header {
+    background: #ffffff;
+}
+
+.body-drip {
+    border-top: 8px solid #663399;
+}
+
+
+// Template styles
+
+/* GLOBAL ALIASING */
+
+table td, table th, p {
+    -webkit-font-smoothing: antialiased;
+}
+
+/* NEWSPAPER FIX */
+
+.article p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+/* HR FIX */
+
+hr {
+  box-shadow: none !important;
+  border-style: solid;
+  border-color: #eeeeee !important;
+  max-width: 96% !important;
+}
+
+/* HEADER */
+
+.menu-artefact {
+  background: #00aaee !important;
+}
+
+img.web-version {
+  width: 32px !important;
+  height: 24px !important;
+}
+
+img.logo {
+  width: 200px !important;
+  height: 72px !important;
+}
+
+.preheader-text p {
+    font-size: 12px !important;
+    color: #777777 !important;
+}
+
+.preheader-text a {
+    font-size: 12px !important;
+    border-bottom: 1px solid rgba(0,0,0,.16);
+    color: #777777 !important;
+}
+
+/* BUTTONS */
+
+.button {
+  max-width: 84%;
+  text-transform: uppercase;
+  font-size: 14px !important;
+}
+
+table.button.secondary table a {
+  color: #555555 !important;
+}
+
+/* LEGAL AND COPY */
+
+.legal p {
+    font-size: 13px !important;
+    font-style: italic;
+    color: #777777 !important;
+}
+
+.legal p strong {
+  color: #333333 !important;
+}
+
+.legal a {
+    border-bottom: 1px solid rgba(0,0,0,.16);
+    color: #777777 !important;
+}
+
+/* CATALOG */
+
+.catalog th.columns {
+  border-bottom: 2px solid #eeeeee;
+  padding: 18px 0 6px 0 !important;
+}
+
+.catalog div.item p a {
+  color: #0088cc !important;
+  border-bottom: 1px solid #0088cc;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+}
+
+.catalog .divider-v {
+  width: 0px !important;
+  border-collapse: collapse;
+  border: 1px solid #eeeeee;
+}
+
+/* ITEM CONTAINER */
+
+div.item-container {
+  border: 2px solid #eeeeee;
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 32px;
+}
+
+div.brand-name p,
+div.price p,
+div.price-old p,
+div.price-description p {
+  margin-bottom: 0 !important;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.brand-name p {
+  font-size: 14px;
+}
+
+div.price-old p {
+  font-size: 13px;
+  font-weight: normal;
+  color: #777777;
+  text-decoration: line-through;
+}
+
+div.price p {
+  font-weight: bold;
+  color: #333333;
+  font-size: 18px;
+}
+
+div.price-description p {
+  font-size: 13px;
+  font-weight: normal;
+  color: #777777;
+}
+
+div.item-name p {
+  font-weight: 600;
+}
+
+table.button.tiny table td, table.button.tiny table a {
+  padding: 2px 8px 2px 8px !important;
+}
+
+table.button.tiny {
+  margin-bottom: 0 !important;
+}
+
+/* SHORT LIST OF OFFERS */
+
+div.description p {
+  font-size: 11px;
+  color: #777777;
+  font-weight: 600;
+}
+
+/* PROMOCODE */
+
+div.promo-code {
+  padding: 8px 0 0 0;
+  border-radius: 8px;
+  border: 2px solid #cccccc !important; 
+}
+
+div.promo-code p {
+  font-family: 'Courier New', 'Lucida Console' !important;
+  font-size: 24px !important;
+  letter-spacing: 2px;
+  user-select: all;
+  font-weight: bold;
+}
+
+/* ALERT WINDOW */
+
+  div.alert-filler-wrapper,
+  div.alert-filler-wrapper .container {
+    background: #ff8877 !important;
+  }
+
+  div.alert-title {
+    background: #ee4422 !important;
+    text-align: center;
+    border-radius: 32px 32px 0 0;
+    padding: 15px 0 13px 0 !important;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  div.alert-body {
+    background: #ffffff;
+    padding: 16px !important;
+  }
+
+  div.alert-body-last {
+    background: #ffffff;
+    padding: 4px !important;
+    border-radius: 0 0 32px 32px;
+  }
+
+/* POLL WINDOW */
+
+  div.poll-filler-wrapper,
+  div.poll-filler-wrapper .container {
+    background: #55ccff !important;
+  }
+
+  div.poll-title {
+    background: #00aaee !important;
+    text-align: center;
+    border-radius: 32px 32px 0 0;
+    padding: 15px 0 13px 0 !important;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  div.poll-body {
+    background: #ffffff;
+    padding: 16px !important;
+  }
+
+  div.poll-body-last {
+    background: #ffffff;
+    padding-bottom: 16px !important;
+    border-radius: 0 0 32px 32px;
+  }
+
+/* SPECIAL CLASSES */
+
+/*.wrapper table,
+.wrapper td {
+  border: 1px solid red !important;
+}*/
+
+.wrapper.no-padding td, .wrapper.no-padding th {
+  padding-bottom: 0;
+}
+
+.wrapper.no-padding-h td, .wrapper.no-padding-h th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+
+
+
+
