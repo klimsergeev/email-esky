@@ -1,33 +1,39 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-/*
-    outline: 1px solid black;
-    font-family: 'Open Sans', 'SF UI Display', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-    font-weight: 400; // regular
-    font-weight: 600; // semibold
-    font-weight: 700; // bold
-*/
+
+    // outline: 1px solid black;
+    // font-family: 'Open Sans', 'SF UI Display', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    // font-weight: 400; // regular
+    // font-weight: 600; // semibold
+    // font-weight: 700; // bold
+
 
 // import Open Sans fong from Google/fonts
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic");
 
-/* TEMP FIXES
+// TEMP FIXES
 
-#__bs_notify__ {
-    top: 92% !important;
-    right: 10px !important;
+// #__bs_notify__ {
+//     top: 92% !important;
+//     right: 10px !important;
 
-    height: 60px !important; 
+//     height: 60px !important; 
 
-    border-radius: 15px !important;
-}
+//     border-radius: 15px !important;
+// }
 
-.comment {
-  font-family: 'Courier New', 'Lucida Console', sans-serif !important;
-  color: #999999 !important;
-} */
+// .comment {
+//   font-family: 'Courier New', 'Lucida Console', sans-serif !important;
+//   color: #999999 !important;
+// }
+
+
+// .wrapper table,
+// .wrapper td {
+//   border: 1px solid red !important;
+// }
 
 // Remove blue links
 
@@ -60,7 +66,7 @@ html,
 
 // Template styles
 
-/* GLOBAL ALIASING */
+// GLOBAL ALIASING
 
 table td, table th, p {
     -webkit-font-smoothing: antialiased;
@@ -68,13 +74,12 @@ table td, table th, p {
 
 // NEWSPAPER FIX
 
-.article p,
-p.article {
+.article p {
   text-align: justify;
   line-height: 2em;
 }
 
-/* HR FIX */
+// HR FIX
 
 hr {
   box-shadow: none !important;
@@ -83,7 +88,7 @@ hr {
   max-width: 96% !important;
 }
 
-/* HEADER */
+// HEADER
 
 .menu-artefact {
   background: #00aaee !important;
@@ -122,7 +127,7 @@ table.button.secondary table a {
   color: #555555 !important;
 }
 
-/* LEGAL AND COPY */
+// LEGAL AND COPY
 
 .legal p {
     font-size: 13px !important;
@@ -139,7 +144,7 @@ table.button.secondary table a {
     color: #777777 !important;
 }
 
-/* CATALOG */
+// CATALOG
 
 .catalog th.columns {
   border-bottom: 2px solid #eeeeee;
@@ -148,7 +153,7 @@ table.button.secondary table a {
 
 .catalog div.item p a {
   color: #0088cc !important;
-  border-bottom: 1px solid rgba(0,136,204,.16);
+  border-bottom: 1px solid #0088cc;
   font-size: 14px !important;
   text-transform: uppercase;
   font-weight: 600 !important;
@@ -160,7 +165,7 @@ table.button.secondary table a {
   border: 1px solid #eeeeee;
 }
 
-/* ITEM CONTAINER */
+// ITEM CONTAINER
 
 div.item-container {
   border: 2px solid #eeeeee;
@@ -178,8 +183,7 @@ div.price-description p {
 }
 
 div.brand-name p {
-  font-size: 12px;
-  color: #999999 !important;
+  font-size: 14px;
 }
 
 div.price-old p {
@@ -213,7 +217,7 @@ table.button.tiny {
   margin-bottom: 0 !important;
 }
 
-/* SHORT LIST OF OFFERS */
+// SHORT LIST OF OFFERS
 
 div.description p {
   font-size: 11px;
@@ -221,7 +225,7 @@ div.description p {
   font-weight: 600;
 }
 
-/* PROMOCODE */
+// PROMOCODE
 
 div.promo-code {
   padding: 10px 0 0 0;
@@ -237,7 +241,7 @@ div.promo-code p {
   font-weight: bold;
 }
 
-/* ALERT WINDOW */
+// ALERT WINDOW
 
   div.alert-filler-wrapper,
   div.alert-filler-wrapper .container {
@@ -266,7 +270,7 @@ div.promo-code p {
     border-radius: 0 0 32px 32px;
   }
 
-/* POLL WINDOW */
+// POLL WINDOW
 
   div.poll-filler-wrapper,
   div.poll-filler-wrapper .container {
@@ -295,21 +299,17 @@ div.promo-code p {
     border-radius: 0 0 32px 32px;
   }
 
-/* SPECIAL CLASSES */
+// SPECIAL CLASSES 
 
-/*.wrapper table,
-.wrapper td {
-  border: 1px solid red !important;
-}*/
 
-.wrapper.no-padding td, .wrapper.no-padding th {
-  padding-bottom: 0;
-}
+  .wrapper.no-padding td, .wrapper.no-padding th {
+    padding-bottom: 0;
+  }
 
-.wrapper.no-padding-h td, .wrapper.no-padding-h th {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+  .wrapper.no-padding-h td, .wrapper.no-padding-h th {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 
 
 
