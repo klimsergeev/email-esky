@@ -66,10 +66,11 @@ html,
 
 // Template styles
 
-// GLOBAL ALIASING
+// GLOBAL ALIASING <- can't use it for gmail
 
 table td, table th, p {
     -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
 }
 
 // NEWSPAPER FIX
@@ -153,7 +154,7 @@ table.button.secondary table a {
 
 .catalog div.item p a {
   color: #0088cc !important;
-  border-bottom: 1px solid #0088cc;
+  border-bottom: 1px solid rgba(0,136,204,.24);
   font-size: 14px !important;
   text-transform: uppercase;
   font-weight: 600 !important;
