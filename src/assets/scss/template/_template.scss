@@ -222,6 +222,7 @@ table.button.tiny {
 
 div.description p {
   font-size: 11px;
+  text-align: center !important;
   color: #777777;
   font-weight: 600;
 }
@@ -310,6 +311,12 @@ div.promo-code p {
   .wrapper.no-padding-h td, .wrapper.no-padding-h th {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  // LITTLE HEROES
+
+  div.heroes h1 {
+    font-family: Cambria, Georgia, Times, serif !important;
   }
 
 
