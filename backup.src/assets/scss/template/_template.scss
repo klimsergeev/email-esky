@@ -66,11 +66,10 @@ html,
 
 // Template styles
 
-// GLOBAL ALIASING <- can't use it for gmail
+// GLOBAL ALIASING
 
 table td, table th, p {
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
 }
 
 // NEWSPAPER FIX
@@ -92,7 +91,7 @@ hr {
 // HEADER
 
 .menu-artefact {
-  background: #ee4422 !important;
+  background: #00aaee !important;
 }
 
 img.web-version {
@@ -120,7 +119,7 @@ img.logo {
 
 .button {
   max-width: 84%;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 14px !important;
 }
 
@@ -222,7 +221,6 @@ table.button.tiny {
 
 div.description p {
   font-size: 11px;
-  text-align: center !important;
   color: #777777;
   font-weight: 600;
 }
@@ -276,7 +274,7 @@ div.promo-code p {
 
   div.poll-filler-wrapper,
   div.poll-filler-wrapper .container {
-    background: #eee !important;
+    background: #55ccff !important;
   }
 
   div.poll-title {
@@ -311,12 +309,6 @@ div.promo-code p {
   .wrapper.no-padding-h td, .wrapper.no-padding-h th {
     padding-left: 0 !important;
     padding-right: 0 !important;
-  }
-
-  // LITTLE HEROES
-
-  div.heroes h1 {
-    font-family: Cambria, Georgia, Times, serif !important;
   }
 
 
